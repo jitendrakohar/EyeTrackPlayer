@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="very small eye"
+        android:id="@+id/verysmall"
+        app:showAsAction="always"/>
+    <item android:title="Small eye"
+        android:id="@+id/smalleye"
+        app:showAsAction="always"/>
+    <item android:title="Mediumeye"
+        android:id="@+id/mediumeye"
+        app:showAsAction="always"/>
+
+</menu>

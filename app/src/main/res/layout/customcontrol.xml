@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:paddin="http://schemas.android.com/tools"
+    android:id="@+id/controls"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/IdTVVideoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="10dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:background="#A60C497A"
+        android:padding="5dp"
+        android:text="Video title"
+
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="#00BCD4"
+        android:textSize="25dp" />
+
+
+    <ImageButton
+        android:id="@+id/eyeTrack"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/transparentblue"
+        android:src="@drawable/eyetrack"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        >
+        <ImageButton
+            android:id="@+id/idIBBack"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#CCA6A0A0"
+            android:src="@drawable/ic_replay"
+            app:tint="@color/white"/>
+        <ImageButton
+            android:id="@+id/idIBPlay"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#CCA6A0A0"
+            android:src="@drawable/play"
+            app:tint="@color/white"/>
+        <ImageButton
+            android:id="@+id/idIBForward"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#CCA6A0A0"
+            android:src="@drawable/ic_forward"
+            app:tint="@color/white"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="4dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <SeekBar
+            android:id="@+id/seekbarprogress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:progressBackgroundTint="@color/white"
+            android:progressTint="#FFC107"
+            android:thumb="@drawable/seekbarthumb" />
+        <TextView
+            android:id="@+id/IvVideotime"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Time"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

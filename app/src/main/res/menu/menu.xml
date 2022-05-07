@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/setting"
+        android:title="Settings"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Sort"
+        android:title="Sort By"
+        app:showAsAction="never"
+        >
+<!-- <menu>-->
+<!--     <item android:id="@+id/ASc"-->
+<!--         android:title="ASC"-->
+<!--         app:showAsAction="never"/>-->
+<!--     <item android:id="DESC"-->
+<!--         android:title="DESC"-->
+<!--         app:showAsAction="never"/>-->
+<!--     <item android:id="@+id/Size"-->
+<!--         android:title="Size"-->
+<!--         app:showAsAction="never"/>-->
+<!--     -->
+<!-- </menu>-->
+
+    </item>
+    <item android:id="@+id/aboutUs"
+        android:title="About Us"
+        app:showAsAction="never"/>
+
+</menu>
